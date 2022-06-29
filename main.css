@@ -17,7 +17,7 @@
 body {
   background-image: url(./images/A/background.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top left;
   background-size: cover;
   letter-spacing: 3px;
 }
