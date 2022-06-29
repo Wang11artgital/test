@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Huiwen-mincho';
+  src: url(./fonts/匯文明朝體.otf);
+}
+
+@font-face {
+  font-family: 'GenRyuMin-SB';
+  src: url(./fonts/GenRyuMinJP-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'GenRyuMin-H';
+  src: url(./fonts/GenRyuMinJP-Heavy.ttf);
+}
+
+body {
+  background-image: url(./images/A/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  letter-spacing: 3px;
+}
+
+.text_bg {
+  background-image: url(./images/A/textbg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.text_title {
+  font-size: 48px;
+  font-family: "Huiwen-mincho";
+  color: #fff;
+}
+
+.text_titleH2 {
+  font-size: 36px;
+  font-family: "Huiwen-mincho";
+  color: #fff;
+}
+
+.text_articleTitle {
+  font-size: 36px;
+  font-family: "Huiwen-mincho";
+  color: #5D5B72;
+}
+
+.text_content {
+  font-size: 18px;
+  font-family: "GenRyuMin-SB";
+  color: #AEBCFF;
+}
+
+@media screen and (max-width: 992px) {
+  .text_content {
+    font-size: 15px;
+  }
+}
+
+.text_content2 {
+  font-size: 18px;
+  font-family: "GenRyuMin-SB";
+  color: #F7E6FF;
+}
+
+@media screen and (max-width: 992px) {
+  .text_content2 {
+    font-size: 15px;
+  }
+}
+
+.text_articleContent {
+  font-size: 22px;
+  font-family: "GenRyuMin-SB";
+  color: #615889;
+}
+
+@media screen and (max-width: 992px) {
+  .text_articleContent {
+    font-size: 18px;
+  }
+}
+
+.text_shadow_purple {
+  text-shadow: 0 0 5px #A9BAFF;
+}
+
+.text_shadow_white {
+  text-shadow: 0 0 4px #fff;
+}
+/*# sourceMappingURL=main.css.map */

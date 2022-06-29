@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Huiwen-mincho';
+    src: url(./fonts/匯文明朝體.otf);
+}
+@font-face {
+    font-family: 'GenRyuMin-SB';
+    src: url(./fonts/GenRyuMinJP-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'GenRyuMin-H';
+    src: url(./fonts/GenRyuMinJP-Heavy.ttf);
+}
+body {
+    background-image: url(./images/A/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    letter-spacing: 3px;
+}
+@mixin fz($fz,$fm,$color:#fff) {
+    font-size: $fz;
+    font-family: $fm;
+    color: $color;
+}
+@mixin shadow($blur,$color) {
+    text-shadow: 0 0 $blur $color;
+}
+.text_bg{
+    background-image: url(./images/A/textbg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.text_title{
+    @include fz(48px,'Huiwen-mincho');
+}
+.text_titleH2{
+    @include fz(36px,'Huiwen-mincho');
+}
+.text_articleTitle{
+    @include fz(36px,'Huiwen-mincho',#5D5B72);
+}
+.text_content{
+    @include fz(18px,'GenRyuMin-SB',#AEBCFF);
+    @media screen and (max-width:992px){
+        font-size: 15px;
+    }
+}
+.text_content2{
+    @include fz(18px,'GenRyuMin-SB',#F7E6FF);
+    @media screen and (max-width:992px){
+        font-size: 15px;
+    }
+}
+.text_articleContent{
+    @include fz(22px,'GenRyuMin-SB',#615889);
+    @media screen and (max-width:992px){
+        font-size: 18px;
+    }
+}
+.text_shadow_purple{
+    @include shadow(5px, #A9BAFF)
+}
+.text_shadow_white{
+    @include shadow(4px, #fff)
+}
