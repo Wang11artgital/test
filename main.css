@@ -25,7 +25,7 @@ body {
 .text_bg {
   background-image: url(./images/A/textbg.png);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -65,12 +65,6 @@ body {
   color: #F7E6FF;
 }
 
-@media screen and (max-width: 992px) {
-  .text_content2 {
-    font-size: 15px;
-  }
-}
-
 .text_articleContent {
   font-size: 22px;
   font-family: "GenRyuMin-SB";
@@ -89,5 +83,30 @@ body {
 
 .text_shadow_white {
   text-shadow: 0 0 4px #fff;
+}
+
+.light {
+  height: 120%;
+  width: 50px;
+  background-image: url(./images/A/light.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  right: -15px;
+  top: -10px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+  .light {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    height: 75%;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    top: unset;
+    left: 10px;
+    bottom: -25px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

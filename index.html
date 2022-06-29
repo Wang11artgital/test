@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="preload" href="./images/A/background.jpg" as="image" />
+    <link rel="preload" href="./images/A/p1.png" as="image" />
+    <link rel="preload" href="./fonts/匯文明朝體.otf" as="font" type="font/otf" crossorigin="anonymous" />
+    <link rel="preload" href="./fonts/GenRyuMinJP-SemiBold.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href="./fonts/GenRyuMinJP-Heavy.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
@@ -53,7 +58,7 @@
             </div>
         </div>
         <div class="row py-5">
-            <div class="col-lg-7 col-12 text-lg-end">
+            <div class="col-lg-7 col-12 text-lg-end position-relative">
                 <h2 class="text_titleH2 px-3 mb-5">實體展介紹</h2>
                 <div class="text_content2 text_shadow_purple px-2 mb-5">
                     ＂認識我＂展區透過鏡面螢幕的互動體驗，<br>
@@ -61,6 +66,7 @@
                     透過故事回到自身，找尋生命意義的可能性。
                 </div>
                 <img class="w-100" src="./images/A/p2.png">
+                <div class="light position-absolute"></div>
             </div>
             <div class="col-lg-5 col-12 d-flex justify-content-lg-center justify-content-end align-items-end pe-3 pt-5">
                 <div class="text_content2 text_shadow_purple">
@@ -83,10 +89,10 @@
                 <img src="./images/A/carousel.png" alt="Los Angeles" class="d-block" style="width:100%">
             </div>
             <div class="carousel-item">
-                <img src="./images/A/carousel.png"" alt="Chicago" class="d-block" style="width:100%">
+                <img src="./images/A/carousel.png" alt="Chicago" class="d-block" style="width:100%">
             </div>
             <div class="carousel-item">
-                <img src="./images/A/carousel.png"" alt="New York" class="d-block" style="width:100%">
+                <img src="./images/A/carousel.png" alt="New York" class="d-block" style="width:100%">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -105,6 +111,4 @@
         <p class="text-white pt-lg-4 px-5 m-0 text-end">COPYRIGHT &copy; 2022MNDA ALL RIGHTS RESERVED.</p>
     </div>
 </body>
-
-
 </html>
