@@ -85,6 +85,10 @@ body {
   text-shadow: 0 0 4px #fff;
 }
 
+.text_justify {
+  text-align: justify;
+}
+
 .light {
   height: 120%;
   width: 50px;
