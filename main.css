@@ -37,7 +37,7 @@ body {
 
 .text_titleH2 {
   font-size: 36px;
-  font-family: "Huiwen-mincho";
+  font-family: "GenRyuMin-H";
   color: #fff;
 }
 
@@ -45,6 +45,24 @@ body {
   font-size: 36px;
   font-family: "Huiwen-mincho";
   color: #5D5B72;
+}
+
+.text_contentH1 {
+  font-size: 22px;
+  font-family: "GenRyuMin-SB";
+  color: #AEBCFF;
+}
+
+@media screen and (max-width: 992px) {
+  .text_contentH1 {
+    font-size: 18px;
+  }
+}
+
+.text_contentH2 {
+  font-size: 17px;
+  font-family: "GenRyuMin-SB";
+  color: #AEBCFF;
 }
 
 .text_content {
@@ -111,6 +129,62 @@ body {
     top: unset;
     left: 10px;
     bottom: -25px;
+  }
+}
+
+.circle {
+  height: 125%;
+  background-image: url(./images/A/circle.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+  .circle {
+    height: 55%;
+  }
+}
+
+.light2 {
+  width: 33%;
+  height: 30px;
+  background-image: url(./images/A/light2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  right: -25px;
+  top: -25px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+  .light2 {
+    width: 0%;
+  }
+}
+
+.copyright {
+  font-size: 16px;
+  max-width: 70vw;
+}
+
+@media screen and (max-width: 992px) {
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+.icon {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 992px) {
+  .icon {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=main.css.map */

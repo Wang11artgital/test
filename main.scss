@@ -35,10 +35,19 @@ body {
     @include fz(48px,'Huiwen-mincho');
 }
 .text_titleH2{
-    @include fz(36px,'Huiwen-mincho');
+    @include fz(36px,'GenRyuMin-H');
 }
 .text_articleTitle{
     @include fz(36px,'Huiwen-mincho',#5D5B72);
+}
+.text_contentH1{
+    @include fz(22px,'GenRyuMin-SB',#AEBCFF);
+    @media screen and (max-width:992px){
+        font-size: 18px;
+    }
+}
+.text_contentH2{
+    @include fz(17px,'GenRyuMin-SB',#AEBCFF);
 }
 .text_content{
     @include fz(18px,'GenRyuMin-SB',#AEBCFF);
@@ -81,5 +90,45 @@ body {
         top: unset;
         left: 10px;
         bottom: -25px;
+    }
+}
+.circle{
+    height: 125%;
+    background-image: url(./images/A/circle.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    right: 0;
+    top: -50px;
+    z-index: -1;
+    @media screen and (max-width:992px){
+        height: 55%;
+    }
+}
+.light2{
+    width: 33%;
+    height: 30px;
+    background-image: url(./images/A/light2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    right: -25px;
+    top: -25px;
+    z-index: -1;
+    @media screen and (max-width:992px){
+        width: 0%;
+    }
+}
+.copyright{
+    font-size: 16px;
+    max-width: 70vw;
+    @media screen and (max-width:992px){
+        font-size: 12px;;
+    }
+}
+.icon{
+    font-size: 28px;
+    @media screen and (max-width:992px){
+        font-size: 16px;;
     }
 }
